@@ -1,0 +1,22 @@
+---
+# this is the config that will be loaded as default by main.py
+
+dataset: "prostateRMI"
+model: "UNet"
+total_clients: 6
+local_batch_size: 16
+total_rounds: 1
+active_clients: 1.0
+local_epochs: 1
+learning_rate: 1e-4
+retraining: False
+restart_training: True  # restart training from checkpoint
+resume_training: False
+seed: 2
+unlearned_cid: [0]
+
+resuming_after_unlearning:
+  algorithm: "natural"
+  frozen_layers: 0
+  unlearning_lr: 0
+  unlearning_epochs: 0
