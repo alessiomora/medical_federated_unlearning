@@ -1,5 +1,5 @@
 # Federated Unlearning in Healthcare: Why It Matters
-This is the official repository for Federated Unlearning in Healthcare: Why It Matters.
+This is the official repository for "Federated Unlearning in Healthcare: Why It Matters", A. Mora, C. Mazzocca, R. Montanari, P. Bellavista, 2025 International Joint Conference on Neural Networks (IJCNN).
 
 ## Citation
 ```
